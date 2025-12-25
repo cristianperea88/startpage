@@ -11,7 +11,7 @@
 
 ## :fleur_de_lis: Sitio Web (Website)
 
-- [HOMEPAGE](https://startpage.github.io)
+- [HOMEPAGE](https://cristianperea88.github.io/startpage/)
 
 ### :camera_flash: Pantallazo (Screenshot)
 
@@ -26,7 +26,7 @@
 > [!WARNING]
 > Los Iconos usados no son de mi propiedad, creditos a sus respectivos autores.
 
-[^1]: [Referencia](https://startpage.github.io)
+[^1]: [Referencia](https://cristianperea88.github.io/startpage/)
 
 ##### :medal_military: Créditos (Credits)
 
