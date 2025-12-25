@@ -30,7 +30,7 @@
 
 ##### :medal_military: Créditos (Credits)
 
-1. [crisperea88](https://startpage.github.io)
+1. [crisperea88](https://cristianperea88.github.io/startpage/)
 
 ---
 
