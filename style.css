@@ -81,10 +81,9 @@ body {
 
 #bookmarksContainer {
     display: inline;
- /* display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(60px, 1fr)); 
-    justify-items: center; 
-    gap: 1vw; */
+    grid-template-columns: repeat(auto-fit, minmax(60px, 1fr));
+    justify-items: center;
+    gap: 1vw;
 }
 
 
