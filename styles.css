@@ -1,0 +1,153 @@
+@font-face {
+    font-family: 'Iosevka';
+    src: url('assets/Iosevka.ttf') format('truetype');
+}
+
+
+body {
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+
+.apps-catalogo h2 {
+    margin: 20px 0 10px;
+    color: #ffffff;
+    font-size: 1.3rem;
+    text-align: left;
+    font-family: 'Iosevka', monospace;
+    
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 15px;
+}
+
+.app-card {
+    display: flex;
+    align-items: center;
+    padding: 12px;
+    border-radius: 10px;
+    background: #000000b1;
+    cursor: pointer;
+    transition: 0.2s;
+    z-index: 2;
+}
+
+.app-card:hover {
+    background: #000000;
+}
+
+.app-card a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    color: white;
+    width: 100%;
+}
+
+.app-card img {
+    width: 32px;
+    height: 32px;
+}
+
+
+.app-card span {
+    display: block;
+    font-size: 14px;
+}
+
+
+
+
+/* ============================================
+   FOOTER
+   ============================================ */
+footer {
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    padding: 10px 0;
+    z-index: 0;
+}
+
+.terminal-footer {
+    padding-top: 20px;
+    color: #ffffffe0;
+    font-size: 1.3rem;
+    text-align: right;
+    font-family: 'Iosevka', monospace;
+    font-weight: bold;
+}
+
+.blink {
+    animation: blink 1s infinite;
+}
+
+@keyframes blink {
+    0%, 49% { opacity: 1; }
+    50%, 100% { opacity: 0; }
+}
+
+
+/* ============================================
+   PARTÍCULAS
+   ============================================ */
+#particles-js {
+    position: fixed;
+    inset: 0;
+    z-index: 2;
+    pointer-events: auto;
+}
+
+/* ============================================
+   CONTENEDOR PRINCIPAL
+   ============================================ */
+#apexContainer {
+    padding-bottom: 1vw;
+    padding-top: 1vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    border-radius: 15px;
+    backdrop-filter: blur(5px);
+    background: rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 90px rgba(0, 0, 0, 1);
+    animation: apexContainerAnimation 200ms ease-in-out;
+    position: relative;
+    z-index: 0;
+}
+
+@keyframes apexContainerAnimation {
+    from { transform: scaleY(0); }
+    to { transform: scaleY(1); }
+}
+
+/* ============================================
+   HORA Y FECHA
+   ============================================ */
+#topContainer {
+    display: block;
+    text-align: center;
+    margin-bottom: 2vw;
+}
+
+#clockContainer {
+    color: #ffffff;
+    font-size: 5vw;
+    font-weight: bold;
+    font-family: 'Iosevka', monospace;
+}
+
+#dateContainer {
+    color: #ffffffae;
+    font-family: 'Iosevka', monospace;
+    font-size: 2vw;
+    font-weight: bold;
+}
