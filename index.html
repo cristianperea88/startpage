@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Minimal, keyboard-centric start page." />
+  <meta name="theme-color" content="#ffffff" id="meta-theme-color" />
+
+  <title>HOME</title>
+  <link rel="icon" href="icon/favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="style.css" />
+
+  <script>
+    // Inicializa el tema desde localStorage
+    const savedTheme = localStorage.getItem('theme');
+    if (savedTheme) document.documentElement.classList.add(`${savedTheme}-mode`);
+  </script>
+</head>
+
+<body>
+   <!-- Capa de partículas -->
+    <div id="particles-js"></div>
+
+
+  <main class="content">
+
+    <!-- Modo Noche - Dia  -->
+    <button id="theme-toggle" aria-label="Cambiar tema">🌙</button>
+
+    <!-- Reloj -->
+    <section class="info-section">
+
+
+   <!-- Hora y fecha -->
+    <div id="topContainer">
+        <div id="clockContainer">00:00</div>
+        <div id="dateContainer">Lunes, 1 de Enero</div>
+    </div>
+
+
+    </section>
+
+    
+
+<!-- Terminal -->
+<section class="terminal-section">
+  <p>
+    <span>&#128270;</span>
+  </p>
+  <div class="terminal-input-wrapper">
+    <div class="command-hint" id="command-hint"></div>
+    <input id="terminal-input" type="text" autocomplete="off" spellcheck="false"
+      aria-label="Terminal Input" placeholder="Escribe tu busqueda..." />
+  </div>
+</section>
+
+    <!-- Bookmarks -->
+    <section class="bookmark-sections" id="bookmarks"></section>
+
+        <div class="terminal-footer">
+            con <span class="blink">❤️</span> Ing. Cristian F. Perea
+        </div>
+
+  </main>
+
+
+
+    <!-- Particles.js -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+
+    <!-- Configuración de partículas -->
+   <script>
+particlesJS('particles-js', {
+  particles: {
+    number: { value: 200, density: { enable: true, value_area: 1500 }  },
+    color: { value: getComputedStyle(document.body).getPropertyValue('--particle-color') },
+    shape: { type: "circle" },
+    opacity: { value: 1, random: true },
+    size: { value: 6, random: true },
+    move: { enable: true, speed: 1, random: true },
+    line_linked: { enable: false, distance: 150,
+      color: getComputedStyle(document.body).getPropertyValue('--particle-color'),
+      opacity: 0.4,
+      width: 1
+    }
+  },
+  retina_detect: true
+});
+</script>
+
+
+  <script src="script/app.js" defer></script>
+
+
+</body>
+    <!-- Footer -->
+
+
+</html>
