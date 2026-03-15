@@ -336,6 +336,11 @@ function inicializar() {
     console.log("✅ Startpage inicializado correctamente");
 }
 
+document.addEventListener("DOMContentLoaded", function() {
+  const input = document.getElementById("terminal-input");
+  input.focus();
+});
+
 // ============================================
 // EJECUTAR AL CARGAR LA PÁGINA
 // ============================================
