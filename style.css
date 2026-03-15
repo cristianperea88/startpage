@@ -154,6 +154,7 @@ ul li a {
   border-radius: 7px;
   background: var(--link-background);
   transition: 0.2s;
+  font-size: 1.7rem; /* relativo */
 }
 
 ul li a:hover {
