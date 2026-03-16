@@ -129,14 +129,12 @@ body {
 .bookmark-section {
   background: var(--card-background);
   border: 1px solid var(--card-border);
-  border-radius: var(--border-radius);
   padding: var(--space-lg);
   flex: 1 1 calc(25% - 20px);
   min-width: 240px;
   position: relative;
   z-index: 2;        /* sobre partículas */
   transition: background 0.4s ease, border 0.4s ease;
-  
 }
 
 
@@ -159,6 +157,7 @@ ul li a {
   background: var(--link-background);
   transition: 0.2s;
   font-size: 1.7rem; /* relativo */
+  border-radius: var(--border-radius);
 }
 
 ul li a:hover {
