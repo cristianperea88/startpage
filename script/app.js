@@ -3,21 +3,21 @@
 // ========================================
 const DEFAULT_BOOKMARKS = [
   // Búsqueda / IA
-  { href: "https://google.com/", title: "Google", category: "IA / Búsqueda" },
   { href: "https://chatgpt.com/", title: "ChatGPT", category: "IA / Búsqueda", color: "white" },
   { href: "https://gemini.google.com/", title: "Gemini", category: "IA / Búsqueda" },
   { href: "https://claude.ai/new", title: "Claude", category: "IA / Búsqueda" },
   { href: "https://www.meta.ai/", title: "Meta_IA", category: "IA / Búsqueda", color: "white" },
   { href: "https://copilot.microsoft.com/", title: "Copilot", category: "IA / Búsqueda", color: "white" },
   { href: "https://notebooklm.google.com/notebook/", title: "NotebookLM", category: "IA / Búsqueda", color: "white" },
+  { href: "https://www.canva.com/", title: "Canva", category: "IA / Búsqueda", color: "white" },
 
-    // Organización / universi
-  { href: "https://www.virtualunimayor.edu.co/login/index.php", title: "Virtual_Unimayor", category: "Universidad" },
-  { href: "https://campus2.unimayor.edu.co/CampusConsultaNotas/Inicio/wfInicio.aspx", title: "Campus_Unimayor", category: "Universidad" },
+    // Organización / universidad
+  { href: "https://www.virtualunimayor.edu.co/login/index.php", title: "Virtual", category: "Universidad" },
+  { href: "https://campus2.unimayor.edu.co/CampusConsultaNotas/Inicio/wfInicio.aspx", title: "Campus", category: "Universidad" },
+  { href: "https://zoom.us/es/signin#/login", title: "Zoom", category: "Universidad", color: "white" },
   { href: "https://www.notion.so/", title: "Notion", category: "Universidad" },
   { href: "https://calendar.notion.so/", title: "Calendar", category: "Universidad" },
   { href: "https://drive.google.com/drive/", title: "Drive", category: "Universidad" },
-  { href: "https://www.canva.com/", title: "Canva", category: "Universidad", color: "white" },
   { href: "https://es.overleaf.com", title: "Overleaf", category: "Universidad", color: "white" },
 
   // Redes sociales
@@ -28,6 +28,7 @@ const DEFAULT_BOOKMARKS = [
   { href: "https://www.instagram.com/", title: "Instagram", category: "Redes Sociales" },
   { href: "https://www.facebook.com/", title: "Facebook", category: "Redes Sociales" },
   { href: "https://www.reddit.com/", title: "Reddit", category: "Redes Sociales" },
+  { href: "https://youtube.com/", title: "Youtube", category: "Redes Sociales" },
 
 
   // Productividad / herramientas
@@ -91,7 +92,7 @@ const generateBookmarks = () => {
       const li = document.createElement('li');
       // Generar nombre de archivo del logo
 const logoFileName = bookmark.title.toLowerCase().replace(/\s+/g, '') + '.svg';
-const logoPath = `icon/${logoFileName}`;
+const logoPath = `icons/${logoFileName}`;
 
 li.innerHTML = `
   <a href="${bookmark.href}" class="bookmark-link" target="_blank" rel="noopener noreferrer">
@@ -315,17 +316,6 @@ function configurarReloj() {
     setInterval(mostrarReloj, 1000);
 }
 
-// ============================================
-// FUNCIÓN: CONFIGURAR OPCIONES GENERALES
-// ============================================
-function configurarGeneral() {
-    const body = document.body;
-
-    const fondoGuardado = cargarPreferencia("generalBackground");
-    body.style.backgroundImage = fondoGuardado
-        ? `url(${fondoGuardado})`
-        : "url('icons/wallpaper.jpeg')";
-}
 
 // ============================================
 // FUNCIÓN PRINCIPAL
@@ -336,10 +326,12 @@ function inicializar() {
     console.log("✅ Startpage inicializado correctamente");
 }
 
+
 document.addEventListener("DOMContentLoaded", function() {
   const input = document.getElementById("terminal-input");
   input.focus();
 });
+
 
 // ============================================
 // EJECUTAR AL CARGAR LA PÁGINA
