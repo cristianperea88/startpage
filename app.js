@@ -28,14 +28,12 @@ const DEFAULT_BOOKMARKS = [
   { href: "https://www.instagram.com/", title: "Instagram", category: "Redes Sociales" },
   { href: "https://www.facebook.com/", title: "Facebook", category: "Redes Sociales" },
   { href: "https://www.reddit.com/", title: "Reddit", category: "Redes Sociales" },
-  { href: "https://youtube.com/", title: "Youtube", category: "Redes Sociales" },
-
-
+  
   // Productividad / herramientas
   { href: "https://github.com/cristianperea88", title: "GitHub", category: "Productividad", color: "white" },
   { href: "https://onedrive.live.com/?view=1", title: "OneDrive", category: "Productividad" },
   { href: "https://www.terabox.com/main?category=all", title: "TeraBox", category: "Productividad" },
-  { href: "https://www.pdf24.org/", title: "PDF24", category: "Productividad", color: "white" },
+  { href: "https://tools.pdf24.org/es/todas-las-herramientas", title: "PDF24", category: "Productividad", color: "white" },
   { href: "https://www.ilovepdf.com/es", title: "iLovePDF", category: "Productividad", color: "white" },
   { href: "https://www.iloveimg.com/es", title: "iLoveIMG", category: "Productividad", color: "white" },
   { href: "https://pinterest.com/", title: "Pinterest", category: "Productividad" },
