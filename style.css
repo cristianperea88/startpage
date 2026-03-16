@@ -34,10 +34,8 @@
 }
 
 @font-face {
-  font-family: "fuente";
+  font-family:"font";
   src: url("fonts/Mf_Kazincbarcika.ttf");
-  /* src: url("fonts/PirataOne-Regular.ttf"); */
-  /* src: url("fonts/Iosevka.ttf"); */
   font-display: swap;
 }
 
@@ -259,13 +257,13 @@ ul li a:hover {
     opacity: 0.9;
     font-size: 5rem; /* relativo */
     font-weight: bold;
-    font-family: 'fuente', monospace;
+    font-family: 'font', monospace;
 }
 
 #dateContainer {
     color: var(--text-color);
     opacity: 0.9;
-    font-family: 'fuente', monospace;
+    font-family: 'font', monospace;
     font-size: 1.5rem; /* relativo */
     font-weight: bold;
 }
