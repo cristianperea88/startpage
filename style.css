@@ -99,11 +99,11 @@ body {
   align-items: center;
   overflow-x: hidden;
   transition: background 0.4s ease, color 0.4s ease;
-  /* background: var(--background-color); */
-  background-image: url("wallpaper.jpeg");
+  background: var(--background-color);
+  /* baground-image: url("wallpaper.jpeg");
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; */
 }
 
 /* CONTENT */
