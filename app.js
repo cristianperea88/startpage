@@ -17,7 +17,7 @@ const DEFAULT_BOOKMARKS = [
   { href: "https://zoom.us/es/signin#/login", title: "Zoom", category: "Universidad", color: "white" },
   { href: "https://www.notion.so/", title: "Notion", category: "Universidad" },
   { href: "https://calendar.notion.so/", title: "Calendar", category: "Universidad" },
-  { href: "https://drive.google.com/drive/", title: "Drive", category: "Universidad" },
+  { href: "https://github.com/cristianperea88", title: "GitHub", category: "Universidad", color: "white" },
   { href: "https://es.overleaf.com", title: "Overleaf", category: "Universidad", color: "white" },
 
   // Redes sociales
@@ -30,7 +30,7 @@ const DEFAULT_BOOKMARKS = [
   { href: "https://www.reddit.com/", title: "Reddit", category: "Redes Sociales" },
   
   // Productividad / herramientas
-  { href: "https://github.com/cristianperea88", title: "GitHub", category: "Productividad", color: "white" },
+  { href: "https://drive.google.com/drive/", title: "Drive", category: "Productividad" },
   { href: "https://onedrive.live.com/?view=1", title: "OneDrive", category: "Productividad" },
   { href: "https://www.terabox.com/main?category=all", title: "TeraBox", category: "Productividad" },
   { href: "https://tools.pdf24.org/es/todas-las-herramientas", title: "PDF24", category: "Productividad", color: "white" },
