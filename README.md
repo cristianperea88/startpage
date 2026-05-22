@@ -26,11 +26,11 @@
 > [!WARNING]
 > Los Iconos usados no son de mi propiedad, creditos a sus respectivos autores.
 
-[^1]: [Referencia](https://cristianperea88.github.io)
+[^1]: [Referencia](https://cristianperea88.github.io/startpage/)
 
 ##### :medal_military: Créditos (Credits)
 
-1. [cristianperea88](https://cristianperea88.github.io)
+1. [cristianperea88](https://cristianperea88.github.io/startpage/)
 
 ---
 
