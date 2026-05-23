@@ -3,10 +3,10 @@
 ```
 /*       _\|/_
          (o o)
- +----oOO-{_}-OOo------------------------------+
- | Página de Inicio para Firefox, Chrome, etc. |
- |    (Startpage for Firefox, Chrome, etc.)    |
- +--------------------------------------------*/
+ +----oOO-{_}-OOo-----------------------------------------------------------------------------------------+
+ | Página de Inicio para Firefox, Chrome, Zen, Brave, Edge, Zafari, Opera, Vivaldi, Duckduckgo, Tor, etc. |
+ |    (Startpage for Firefox, Chrome, Zen, Brave, Edge, Zafari, Opera, Vivaldi, Duckduckgo, Tor, etc.)    |
+ +-------------------------------------------------------------------------------------------------------*/
 ```
 
 ## :fleur_de_lis: Sitio Web (Website)
