@@ -18,15 +18,6 @@
  <p align="center">
           <img src="wallpaper.gif" alt="Gif - (Screenshot)" align="center" width="80%"/>
  </p>
-
----
-
-### :camera_flash: Pantallazo (Screenshot)
-
- <p align="center">
-          <img src="imagen.png" alt="Pantallazo - (Screenshot)" align="center" width="80%"/>
- </p>
-
 ---
 
 #### :warning: Importante:
