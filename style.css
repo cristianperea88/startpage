@@ -93,7 +93,7 @@ body {
 .bookmark::after {
     content: attr(data-name);
     max-width: 100%;
-    font: 0.85rem / 1.2 var(--font-label);
+    font: 1.2rem / 1.2 var(--font-label);
     text-align: center;
     overflow-wrap: anywhere;
 }
