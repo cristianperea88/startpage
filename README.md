@@ -13,10 +13,10 @@
 
 - [HOMEPAGE](https://cristianperea88.github.io/startpage/)
 
-### :camera_flash: Pantallazo (gif)
+### :camera_flash: Pantallazo
 
  <p align="center">
-          <img src="wallpaper.gif" alt="Gif - (Screenshot)" align="center" width="80%"/>
+          <img src="imagen.webp" alt="(Screenshot)" align="center" width="80%"/>
  </p>
 ---
 
