@@ -16,7 +16,7 @@
 ### :camera_flash: Pantallazo
 
  <p align="center">
-          <img src="imagen.webp" alt="(Screenshot)" align="center" width="80%"/>
+          <img src="imagen.png" alt="(Screenshot)" align="center" width="80%"/>
  </p>
 ---
 
